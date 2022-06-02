@@ -1,0 +1,122 @@
+.principal {
+    background-image: url(img/fondo1.jpg);
+    position: fixed;
+}
+
+.logo {
+    position: absolute;
+    width: 100px;
+    border-radius: 20%;
+    margin: 30px;
+}
+
+.bloqueopc {
+    margin: 300px 0 400px 330px;
+    display: inline-block;
+}
+
+.menu {
+    border: 2px solid black;
+    background: radial-gradient(#8bc34a, transparent);
+    font-size: 30px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.menu:hover {
+    background-color: darksalmon;
+}
+
+
+/*juego*/
+
+.juego {
+    background-image: url(img/fondoj.png);
+}
+
+.menujuego {
+    display: inline-block;
+    margin: 130px 0px 0px 150px;
+}
+
+.txt {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-style: oblique;
+    width: 20px;
+    padding: 10px;
+    background: transparent;
+    border: hwb(307deg 75% 2%) solid 5px;
+}
+
+.btn {
+    background: blanchedalmond;
+    font-size: 15px;
+    margin: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.texto {
+    font-size: 40px;
+}
+
+#ahorcado {
+    height: 355px;
+    width: 290px;
+    position: fixed;
+    top: 200px;
+    left: 500px;
+    background-image: url(img/final.png);
+}
+
+.advertencia {
+    position: absolute;
+    width: 15%;
+    left: 500px;
+    top: 70px;
+}
+
+#ganador {
+    display: none;
+    height: 100%;
+    align-items: center;
+    font-size: 5rem;
+    position: fixed;
+    top: 50px;
+    left: 30px;
+}
+
+#perdiste {
+    display: none;
+    height: 100%;
+    align-items: center;
+    font-size: 5rem;
+    position: fixed;
+    top: 0px;
+    left: 30px;
+}
+
+#secreto {
+    position: fixed;
+    left: 530px;
+    top: 400px;
+}
+
+.again {
+    border: 2px solid black;
+    background: radial-gradient(#8bc34a, transparent);
+    font-size: 30px;
+    text-decoration: none;
+    padding: 20px;
+    position: fixed;
+    top: 500px;
+    left: 150px;
+}
+
+
+/*Registro*/
+
+.agregar {
+    background-image: url(img/fondor1.png);
+}

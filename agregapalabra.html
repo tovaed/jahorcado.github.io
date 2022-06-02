@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="agrega.css">
+</head>
+
+<body>
+    <header>
+        <title>INICIO</title>
+    </header>
+    <main>
+        <div class="agregar" id="nuevaspalabras">
+            <img src="img/lAlura.png" class="logo">
+            <div class="bloqueopc">
+                <input type="text" id="paAgre">
+                <button id="apalabra">Agregar palabra</button>
+                <button id="jugar">Jugar</button>
+            </div>
+        </div>
+        <div class="juego" id="vamosajugar">
+            <button onclick="location.href='index.html'" style="position: absolute;" class="btn">Salir</button>
+            <div class="menujuego">
+                <h1 class="texto">Juego del ahorcado</h1>
+                <p class="texto">Introduzca una letra</p>
+                <input class="txt" type="text" maxlength="1" id="letra" onkeypress="return soloLetras(event)" />
+                <button id="calcular" class="btn">Evaluar letra</button>
+                <img src="img/advertencia.png" class="advertencia">
+                <button id="repetir" class="btn">Nueva palabra</button>
+                <p id="letrasusadas" class="texto"></p>
+                <p id="salida" class="texto"></p>
+            </div>
+            <div id="ahorcado"></div>
+            <div id="ganador">
+                <h1>¡FELICIDADES HAS GANADO!</h1>
+                <img src="img/GANASTE.gif">
+                <a href="juego.html" class="again">Nuevo juego</a>
+            </div>
+            <div id="perdiste">
+                <h1 style="position: fixed;top: 10px;left: 200px;">Lo siento has perdido</h1>
+                <img src="img/perdiste.gif">
+                <p>La palabra era:</p>
+                <p id="secreto"></p>
+                <a href="juego.html" class="again">Nuevo juego</a>
+            </div>
+        </div>
+
+    </main>
+    <script src="agrega.js"></script>
+</body>
