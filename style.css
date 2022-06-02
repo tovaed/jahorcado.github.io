@@ -1,5 +1,5 @@
 .principal {
-    background-image: url(img/fondo1.jpg);
+    background-image: url(fondo1.jpg);
     position: fixed;
 }
 
@@ -31,7 +31,7 @@
 /*juego*/
 
 .juego {
-    background-image: url(img/fondoj.png);
+    background-image: url(fondoj.png);
 }
 
 .menujuego {
@@ -67,7 +67,7 @@
     position: fixed;
     top: 200px;
     left: 500px;
-    background-image: url(img/final.png);
+    background-image: url(final.png);
 }
 
 .advertencia {
@@ -118,5 +118,5 @@
 /*Registro*/
 
 .agregar {
-    background-image: url(img/fondor1.png);
+    background-image: url(fondor1.png);
 }
