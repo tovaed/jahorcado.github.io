@@ -15,9 +15,9 @@
         <img src="img/lAlura.png" class="logo">
         <div class="bloqueopc">
             <a href="juego.html" class="menu">Iniciar el juego</a>
-            <img src="img/fin1.png">
+            <img src="fin1.png">
             <a href="agregapalabra.html" class="menu">Agregar Palabra</a>
-            <img src="img/jake1.png">
+            <img src="jake1.png">
         </div>
 
     </main>
